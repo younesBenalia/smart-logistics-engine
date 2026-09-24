@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files 
+__pycache__/
+*.py[cod] 
+*$py.class 
+
+# Virtual environments 
+venv/ 
+.venv/ 
+env/ 
+ENV/ 
+
+# Data files (raw/processed datasets or large CSVs) 
+data/raw/* 
+data/processed/* 
+!data/raw/.gitkeep 
+!data/processed/.gitkeep 
+*.csv 
+*.parquet 
+*.sqlite 
+*.db 
+
+# Model artifacts & binaries 
+models/* 
+!models/.gitkeep 
+*.pkl 
+*.joblib 
+*.h5 
+*.onnx 
+
+# Jupyter / Kaggle Checkpoints 
+.ipynb_checkpoints 
+*-checkpoint.ipynb 
+
+# Environment variables & secrets 
+.env
+.env.local 
+.streamlit/secrets.toml 
+
+# IDE & OS Garbage 
+.vscode/ 
+.idea/
+.DS_Store 
+Thumbs.db 
+
+# Streamlit temporary files 
+.streamlit/
